@@ -1,13 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.wrapper {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.todoList {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  width: 340px;
+  margin: 20px;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 20px #e4dbdb;
+}
+.button {
+  height: 25px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.button:focus,
+.button:hover {
+  cursor: pointer;
+  background-color: #21bb3a;
+}
+.button1:focus,
+.button1:hover {
+  cursor: pointer;
+  background-color: #ce0e0e;
+}
+.button1 {
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.input:focus {
+  background-color: rgb(181, 219, 231);
+  border-color: 1px solid #0c7c1f;
+}
+
+.itemTodo {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
